@@ -20,7 +20,11 @@ fun main(args: Array<String>) {
         println("\nYour fortune is: $fortune")
         if (fortune.contains("Take it easy"));
 
+    defauluValue()
+}
 
+fun defauluValue(value : String = "fast"){
+    print("default value is : $value")
 }
 
 fun getBirthday() : Int {
